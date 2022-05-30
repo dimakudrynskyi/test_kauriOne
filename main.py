@@ -199,7 +199,7 @@ async def scheduler(**kwargs):
         data = kwargs['currency'].split('_')
         currency_from = data[0]
         currency_to = data[1]
-        aioschedule.every(kwargs['minutes']).seconds.do(lambda: get_data(currency_from, currency_to, kwargs['user_id']))
+        aioschedule.every(kwargs['minutes']).minute.do(lambda: get_data(currency_from, currency_to, kwargs['user_id']))
         print(Fore.GREEN, "Schedule was create for user({0}) with period {1} minutes".format(kwargs['user_id'], kwargs['minutes']))
         while n:
             await aioschedule.run_pending()

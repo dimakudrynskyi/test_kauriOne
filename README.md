@@ -1,0 +1,2 @@
+The bot utilizes the aiogram library to interact with Telegram API using python. 
+The user files are stored in JSON format. User can get exchange rate instantly or create a schedule to get exchange rate how often he want.

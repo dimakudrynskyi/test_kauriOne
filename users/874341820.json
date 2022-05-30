@@ -1,1 +1,4 @@
-[{"records": 1, "user_id": 874341820, "exchange_currency": "", "period": 0, "username": ""}, {"records": 2, "user_id": 874341820, "exchange_currency": "usd_uah", "period": 10, "username": "DimaKot11"}]
+[
+    {"records": 1, "user_id": 874341820, "exchange_currency": "", "period": 0, "username": ""}, 
+    {"records": 2, "user_id": 874341820, "exchange_currency": "usd_uah", "period": 10, "username": "DimaKot11"}
+]
